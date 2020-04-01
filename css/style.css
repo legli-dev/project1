@@ -66,16 +66,40 @@
   font-weight: 300;
   line-height: 28px;
   color: #FFFFFF;
+  margin-bottom: 73px;
+}
+.mark-free {
+  font-family: "Roboto - Bold";
+  font-weight: 700;
+  color: #f9bf3b;
+
 }
 .toIntensive-btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 73px;
   padding: 29px;
   font-family: 'Roboto Condensed';
   font-size: 21px;
   font-weight: 500;
-  line-height: 21px;
+  line-height: 15px;
   color: #FFFFFF;
-  background-color: #39b4d8;
+  background: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   background-clip: padding-box;
   border: 4px solid rgba(0, 0, 0, .23);
+  border-radius: 3px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .18);
 }
-
+.more-text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.more-arrow {
+  display: block;
+  margin: 0 auto;
+}
