@@ -89,6 +89,8 @@
   border: 4px solid rgba(0, 0, 0, .23);
   border-radius: 3px;
   box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .18);
+  outline: none;
+  cursor: pointer;
 }
 .more-text {
   text-align: center;
@@ -102,6 +104,7 @@
 .more-arrow {
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 .waiting {
   background: #EFEFEF;
@@ -120,7 +123,78 @@
 }
 .divider-line{
   width: 218px;
-  height: 5px;
+  height: 4px;
   margin: 0 auto;
-  background: #F9BF3B;w
+  background: #F9BF3B;
+  margin-bottom: 17px;
+}
+.webinars-text {
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #4A4A4A;
+}
+.waiting-items-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.waiting-item {
+  width: 342px;
+  text-align: center;
+}
+.optimization {
+  padding-top: 102px;
+  padding-bottom: 107px;
+  min-height: 550px;
+}
+.optomazation-descr {
+  padding-left: 390px;
+}
+.optimization .container {
+  position: relative;
+}
+.optimization-img {
+  position: absolute;
+  top: -54px;
+  left: -240px;
+  z-index: -1;
+}
+.end {
+  background: url('../img/end/bg.jpg') center center/cover no-repeat;
+  padding-top: 86px;
+  padding-bottom: 79px;
+}
+.end-title {
+  text-align: center;
+  color: #EFEFEF;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.end-items {
+  padding-left: 44px;
+  padding-right: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.end-item {
+  width: 204px;
+}
+.end-item-round {
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+  background-color: #b4e2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.end-item-descr {
+  text-align: center;
 }
